@@ -2,8 +2,12 @@ import sqlite3
 import argparse
 import json
 from datetime import datetime
+from pathlib import Path
 
-DB_PATH = "guatecompras_local.db"
+# Raíz del workspace = el padre de la carpeta donde vive este script.
+# Permite invocar el script desde cualquier cwd sin perder la DB.
+WORKSPACE_DIR = Path(__file__).resolve().parent.parent
+DB_PATH = str(WORKSPACE_DIR / "data" / "guatecompras_local.db")
 
 EQUIVALENCIAS_ESTADO = {
     "active": "vigente",

@@ -1,5 +1,68 @@
+# ============================================================
+# .gitignore — workspace de Claudio
+# Mantiene el repo ligero y fuera de información sensible.
+# ============================================================
+
+# --- Python ---
 .venv/
+venv/
+env/
 __pycache__/
 *.pyc
-guatecompras_local.db
+*.pyo
+*.pyd
+.python-version
+
+# --- Datos regenerables (DB y cache de PDFs descargados de Guatecompras) ---
+# La DB se reconstruye con `tools/inicializar_db.py` y las extracciones
+# con `tools/extraer_volumen.py --todos`.
+data/guatecompras_local.db
+data/guatecompras_local.db-journal
+data/guatecompras_local.db-shm
+data/guatecompras_local.db-wal
+data/pdfs_cache/
+
+# --- Logs ---
+*.log
+data/*.log
+
+# --- Información sensible del oferente / negocio ---
+# Datos fiscales, legales, comerciales y ofertas previas — NO subir al repo.
+OFERENTE.md
+ofertas_historicas/*
+!ofertas_historicas/.gitkeep
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets/
+
+# --- Estado interno de OpenClaw ---
+.openclaw/
+
+# --- Residuos del onboard de OpenClaw ---
+BOOTSTRAP.md
+
+# --- macOS ---
 .DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# --- IDEs / editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Build / cache de herramientas Python ---
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

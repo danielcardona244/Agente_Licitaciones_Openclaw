@@ -24,11 +24,17 @@ import time
 import urllib.parse
 import urllib.request
 from datetime import datetime
+from pathlib import Path
 
 import pdfplumber
 
-DB_PATH = "guatecompras_local.db"
-CACHE_DIR = "pdfs_cache"
+# Raíz del workspace = el padre de la carpeta donde vive este script.
+# Permite invocar el script desde cualquier cwd sin perder la DB ni el cache.
+WORKSPACE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = WORKSPACE_DIR / "data"
+DB_PATH = str(DATA_DIR / "guatecompras_local.db")
+CACHE_DIR = str(DATA_DIR / "pdfs_cache")
+DATA_DIR.mkdir(parents=True, exist_ok=True)
 API_BASE = "https://ocds.guatecompras.gt"
 MAX_TEXTO_PROMPT = 60000  # caracteres; deja margen frente a ARG_MAX y al contexto del modelo
 

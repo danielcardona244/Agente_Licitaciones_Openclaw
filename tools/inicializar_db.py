@@ -6,6 +6,7 @@ import os
 import unicodedata
 import urllib.error
 import urllib.request
+from pathlib import Path
 from urllib.parse import urlencode
 
 # Año de ejecución actual para el análisis de licitaciones
@@ -13,7 +14,13 @@ ANIO_ACTUAL = "2026"
 API_BASE = "https://ocds.guatecompras.gt"
 FECHA_DESDE = "2026-05-01"
 ESTATUS_VIGENTE = "1"
-DB_PATH = "guatecompras_local.db"
+
+# Raíz del workspace = el padre de la carpeta donde vive este script.
+# Permite invocar el script desde cualquier cwd sin perder la DB ni el cache.
+WORKSPACE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = WORKSPACE_DIR / "data"
+DB_PATH = str(DATA_DIR / "guatecompras_local.db")
+DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 PALABRAS_CLAVE_VIALES = [
     "carretera", "carreteras",

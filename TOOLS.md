@@ -1,5 +1,23 @@
 # TOOLS.md - Herramientas de Datos Local
 
+## Estructura del workspace
+
+```
+workspace/
+├── AGENTS.md, SOUL.md, USER.md, IDENTITY.md   ← contexto OpenClaw (raíz)
+├── HEARTBEAT.md, TOOLS.md (este), MEMORY.md   ← contexto OpenClaw (raíz)
+├── memory/YYYY-MM-DD.md                       ← memoria diaria
+├── tools/                                     ← scripts Python (inicializar/extraer/consultar)
+├── bin/                                       ← arrancar_claudio.sh, apagar_claudio.sh
+├── data/                                      ← DB, pdfs_cache, logs
+├── docs/                                      ← GUATECOMPRAS_CRITERIOS.md y otra doc del dominio
+├── referencias/                               ← FUTURO: LCE, decretos
+├── ofertas_historicas/                        ← FUTURO: ofertas previas exitosas
+└── .venv/                                     ← entorno Python
+```
+
+Los scripts Python resuelven sus paths con `Path(__file__).resolve().parent.parent`, por lo que la DB y el pdfs_cache siempre se encuentran en `data/` sin importar desde dónde se invoquen.
+
 ## Entorno Python
 
 Usar siempre el venv del workspace: `.venv/bin/python` (Python 3.9.6 con `requests`, `pdfplumber`, `pdfminer.six`). No invocar `python` ni `python3` global de Homebrew para no perder dependencias.
@@ -33,30 +51,30 @@ Usar siempre el venv del workspace: `.venv/bin/python` (Python 3.9.6 con `reques
 
 ```bash
 # Refrescar la DB con releases vigentes de Guatecompras
-.venv/bin/python inicializar_db.py
+.venv/bin/python tools/inicializar_db.py
 
 # Extraer volumen físico de UN NOG (POC)
-.venv/bin/python extraer_volumen.py --nog 30098408
+.venv/bin/python tools/extraer_volumen.py --nog 30098408
 
 # Extraer volumen físico de TODOS los pendientes (~30s por NOG)
-.venv/bin/python extraer_volumen.py --todos
+.venv/bin/python tools/extraer_volumen.py --todos
 
 # Limitar la corrida masiva (útil para no procesarlos todos de golpe)
-.venv/bin/python extraer_volumen.py --todos --limite 10
+.venv/bin/python tools/extraer_volumen.py --todos --limite 10
 
 # Reprocesar incluso si ya estaba extraído
-.venv/bin/python extraer_volumen.py --todos --reprocesar
+.venv/bin/python tools/extraer_volumen.py --todos --reprocesar
 
 # Reporte ejecutivo top 5 ranking por m²
-.venv/bin/python consultar_db.py --limite 5
+.venv/bin/python tools/consultar_db.py --limite 5
 
 # Ficha completa de un NOG específico (fechas visita técnica, plicas, plazos, garantías, requisitos, renglones)
-.venv/bin/python consultar_db.py --nog 30098408
+.venv/bin/python tools/consultar_db.py --nog 30098408
 ```
 
 ## Herramienta Core: Consultar Obras Viales
 
-- **Comando por defecto:** `.venv/bin/python consultar_db.py` → top 5 vigente desde 2026-05-01, prioridad `alta,media`, ranking por m² DESC, salida formateada.
+- **Comando por defecto:** `.venv/bin/python tools/consultar_db.py` → top 5 vigente desde 2026-05-01, prioridad `alta,media`, ranking por m² DESC, salida formateada.
 - **Argumentos:**
   - `--limite X` (default 5)
   - `--desde YYYY-MM-DD` (default `2026-05-01`)
@@ -66,8 +84,8 @@ Usar siempre el venv del workspace: `.venv/bin/python` (Python 3.9.6 con `reques
 
 ### Instrucciones de Despliegue para Claudio
 Cuando Rodrigo solicite reportes, top de montos o listados de licitaciones:
-1. **Listado:** ejecuta `.venv/bin/python consultar_db.py --limite 5`. La salida es Markdown Telegram-ready, ranking por m² DESC, solo muestra m² (no ml ni m³).
-2. **Rodrigo elige un NOG de interés:** ejecuta `.venv/bin/python consultar_db.py --nog NNNN` y devuélvele la ficha completa: alcance, volúmenes totales, fechas de visita técnica, recepción de plicas, plazos, garantías, requisitos para participar y renglones.
+1. **Listado:** ejecuta `.venv/bin/python tools/consultar_db.py --limite 5`. La salida es Markdown Telegram-ready, ranking por m² DESC, solo muestra m² (no ml ni m³).
+2. **Rodrigo elige un NOG de interés:** ejecuta `.venv/bin/python tools/consultar_db.py --nog NNNN` y devuélvele la ficha completa: alcance, volúmenes totales, fechas de visita técnica, recepción de plicas, plazos, garantías, requisitos para participar y renglones.
 3. Si Rodrigo pide enfocarse solo en sus entidades objetivo, agrega `--prioridad alta`.
 4. Si la ficha indica que el NOG aún no tiene extracción, ofrécele correr `extraer_volumen.py --nog NNNN` y volver a consultar.
 5. Si las fechas vienen con placeholders tipo `XX DE XXXXX DEL 2,026 XX:XX`, eso es real — la municipalidad aún no fijó fecha. Sugiérele a Rodrigo llamar a la entidad para confirmar.
