@@ -1,0 +1,60 @@
+2026-05-20T12:24:01.190-06:00 [gateway] loading configuration…
+2026-05-20T12:24:01.205-06:00 [gateway] force: no listeners on port 29000
+2026-05-20T12:24:01.208-06:00 [gateway] resolving authentication…
+2026-05-20T12:24:01.216-06:00 [gateway] starting...
+2026-05-20T12:24:02.032-06:00 [gateway] starting HTTP server...
+2026-05-20T12:24:02.183-06:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-05-20T12:24:03.341-06:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: codex (/Users/rodrigo/.openclaw/npm/node_modules/@openclaw/codex/dist/index.js). Set plugins.allow to explicit trusted ids.
+2026-05-20T12:24:05.292-06:00 [gateway] agent model: openai/gpt-5.5 (thinking=medium, fast=off)
+2026-05-20T12:24:05.293-06:00 [gateway] http server listening (11 plugins: bonjour, browser, canvas, codex, device-pair, duckduckgo, file-transfer, memory-core, phone-control, talk-voice, telegram; 4.1s)
+2026-05-20T12:24:05.294-06:00 [gateway] log file: /tmp/openclaw/openclaw-2026-05-20.log
+2026-05-20T12:24:05.332-06:00 [gateway] security warning: dangerous config flags enabled: gateway.controlUi.allowInsecureAuth=true. Run `openclaw security audit`.
+2026-05-20T12:24:05.334-06:00 [gateway] starting channels and sidecars...
+2026-05-20T12:24:05.365-06:00 [hooks] loaded 5 internal hook handlers
+2026-05-20T12:24:05.570-06:00 [browser/server] Browser control listening on http://127.0.0.1:29002/ (auth=token)
+2026-05-20T12:24:05.580-06:00 [gateway] ready
+2026-05-20T12:24:05.586-06:00 [heartbeat] started
+2026-05-20T12:24:05.629-06:00 [telegram] [default] starting provider (@LicitadorClaudioBot)
+2026-05-20T12:24:05.984-06:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 60 commands visible.
+2026-05-20T12:24:06.625-06:00 [plugins] bonjour: advertised gateway fqdn=MacBook de rodrigo (OpenClaw)._openclaw-gw._tcp.local. host=MacBook-de-rodrigo.local. port=29000 state=announcing
+2026-05-20T12:24:09.703-06:00 [telegram] [diag] isolated polling ingress started spool=/Users/rodrigo/.openclaw/telegram/ingress-spool-default
+2026-05-20T12:24:15.924-06:00 [telegram] [default] channel exited: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running | Telegram ingress worker exited with code 1
+2026-05-20T12:24:15.928-06:00 [telegram] [default] auto-restart attempt 1/10 in 5s
+2026-05-20T12:24:21.189-06:00 [telegram] [default] starting provider (@LicitadorClaudioBot)
+2026-05-20T12:24:21.255-06:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 60 commands visible.
+2026-05-20T12:24:21.764-06:00 [telegram] [diag] isolated polling ingress started spool=/Users/rodrigo/.openclaw/telegram/ingress-spool-default
+2026-05-20T12:24:29.242-06:00 [telegram] [default] channel exited: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running | Telegram ingress worker exited with code 1
+2026-05-20T12:24:29.245-06:00 [telegram] [default] auto-restart attempt 2/10 in 11s
+2026-05-20T12:24:40.274-06:00 [telegram] [default] starting provider (@LicitadorClaudioBot)
+2026-05-20T12:24:40.336-06:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 60 commands visible.
+2026-05-20T12:24:40.900-06:00 [telegram] [diag] isolated polling ingress started spool=/Users/rodrigo/.openclaw/telegram/ingress-spool-default
+2026-05-20T12:25:09.627-06:00 [telegram] [default] channel exited: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running | Telegram ingress worker exited with code 1
+2026-05-20T12:25:09.630-06:00 [telegram] [default] auto-restart attempt 3/10 in 21s
+2026-05-20T12:25:30.820-06:00 [telegram] [default] starting provider (@LicitadorClaudioBot)
+2026-05-20T12:25:30.919-06:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 60 commands visible.
+2026-05-20T12:25:31.444-06:00 [telegram] [diag] isolated polling ingress started spool=/Users/rodrigo/.openclaw/telegram/ingress-spool-default
+2026-05-20T12:25:53.682-06:00 [telegram] [default] channel exited: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running | Telegram ingress worker exited with code 1
+2026-05-20T12:25:53.685-06:00 [telegram] [default] auto-restart attempt 4/10 in 41s
+2026-05-20T12:26:34.888-06:00 [telegram] [default] starting provider (@LicitadorClaudioBot)
+2026-05-20T12:26:34.947-06:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 60 commands visible.
+2026-05-20T12:26:35.454-06:00 [telegram] [diag] isolated polling ingress started spool=/Users/rodrigo/.openclaw/telegram/ingress-spool-default
+2026-05-20T12:27:19.332-06:00 [telegram] [default] channel exited: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running | Telegram ingress worker exited with code 1
+2026-05-20T12:27:19.334-06:00 [telegram] [default] auto-restart attempt 5/10 in 85s
+2026-05-20T12:28:44.557-06:00 [telegram] [default] starting provider (@LicitadorClaudioBot)
+2026-05-20T12:28:44.614-06:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 60 commands visible.
+2026-05-20T12:28:45.162-06:00 [telegram] [diag] isolated polling ingress started spool=/Users/rodrigo/.openclaw/telegram/ingress-spool-default
+2026-05-20T12:30:15.705-06:00 [telegram] [default] channel exited: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running | Telegram ingress worker exited with code 1
+2026-05-20T12:30:15.709-06:00 [telegram] [default] auto-restart attempt 6/10 in 163s
+2026-05-20T12:32:58.968-06:00 [telegram] [default] starting provider (@LicitadorClaudioBot)
+2026-05-20T12:32:59.038-06:00 [telegram] menu text exceeded the conservative 5700-character payload budget; shortening descriptions to keep 60 commands visible.
+2026-05-20T12:32:59.952-06:00 [telegram] [diag] isolated polling ingress started spool=/Users/rodrigo/.openclaw/telegram/ingress-spool-default
+2026-05-20T12:33:07.811-06:00 [telegram] [default] channel exited: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running | Telegram ingress worker exited with code 1
+2026-05-20T12:33:07.813-06:00 [telegram] [default] auto-restart attempt 7/10 in 300s
+2026-05-20T12:34:02.337-06:00 [health-monitor] [telegram:default] health-monitor: restarting (reason: stopped)
+2026-05-20T12:34:56.247-06:00 [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: codex (/Users/rodrigo/.openclaw/npm/node_modules/@openclaw/codex/dist/index.js). Set plugins.allow to explicit trusted ids.
+2026-05-20T12:34:56.652-06:00 [agent/embedded] strict-agentic execution contract active: runId=c85ec6a8-d630-4fe8-bb2a-9177e929d718 sessionId=77d7b976-cbf8-4712-b9e9-ed034dd01442 provider=openai-codex/gpt-5.5 harness=codex configured=unspecified
+2026-05-20T12:37:25.502-06:00 [gateway] signal SIGTERM received
+2026-05-20T12:37:25.525-06:00 [gateway] received SIGTERM; shutting down
+2026-05-20T12:37:25.548-06:00 [shutdown] started: gateway stopping
+2026-05-20T12:37:25.724-06:00 [gmail-watcher] gmail watcher stopped
+2026-05-20T12:37:25.725-06:00 [shutdown] completed cleanly in 179ms

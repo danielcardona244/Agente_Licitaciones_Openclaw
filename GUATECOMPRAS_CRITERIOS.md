@@ -6,14 +6,21 @@ Buscar diariamente proyectos vigentes relacionados con carreteras en Guatecompra
 
 ## Unidades compradoras objetivo
 
-- Unidad Ejecutora de Conservación Vial
-- Compras DGC
-- Fondo Social de Solidaridad
+Sistema de prioridades:
+
+- **Prioridad ALTA** — entidades objetivo principales:
+  - Unidad Ejecutora de Conservación Vial
+  - Dirección General de Caminos (Compras DGC)
+  - Fondo Social de Solidaridad
+- **Prioridad MEDIA** — municipalidades, mancomunidades, alcaldías (donde ocurre la mayoría de la obra vial municipal/rural).
+- **Prioridad BAJA** — otras entidades públicas con obra vial puntual.
+
+El reporte por defecto muestra prioridad ALTA + MEDIA. Pasar `--prioridad alta` para enfocarse exclusivamente en las tres entidades objetivo.
 
 ## Filtros base
 
 - Estado: vigente
-- Modalidad: licitación
+- Modalidad: Licitación Pública únicamente
 - Tema: carreteras, caminos rurales, conservación vial, mejoramiento vial, puentes, pavimento, asfalto, terracería, drenajes, cunetas y obras viales relacionadas
 - Enfoque preferente: ejecución de obra
 
@@ -33,6 +40,8 @@ Si Guatecompras no publica cantidades en OCDS, indicar que el ranking queda pend
 ## Exclusiones
 
 No priorizar compras puras, combustibles, mantenimiento de maquinaria o servicios administrativos, salvo que Rodrigo pida incluirlos expresamente.
+
+Excluir cotización, compra directa, casos de excepción, subasta, convenio, contratación directa u otras modalidades que no sean Licitación Pública.
 
 ## Reporte esperado
 
