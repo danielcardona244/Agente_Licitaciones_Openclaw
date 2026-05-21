@@ -1,0 +1,3414 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "total_renglones": 56,
+    "actualizado": "2026-05-20"
+  },
+  "renglones": {
+    "Co 601.07.02.A": {
+      "codigo": "Co 601.07.02.A",
+      "descripcion": "Suministro y Aplicación de Pintura Termoplástica en Líneas de Pavimento de 10 cm de ancho",
+      "unidad": "ml",
+      "rendimiento": 1500,
+      "rendimiento_unidad": "ml/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Máquina autopropulsada termoplástica",
+          "horas": 8,
+          "costo_hora": 380
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Caldera premelting termoplástico",
+          "horas": 8,
+          "costo_hora": 180
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Vehículo pickup 3.4 ton",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Compresor de aire",
+          "horas": 8,
+          "costo_hora": 50
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 80
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Operador de máquina",
+          "horas": 8,
+          "costo_hora": 70
+        },
+        {
+          "cantidad": 4,
+          "descripcion": "Ayudantes / banderilleros",
+          "horas": 8,
+          "costo_hora": 30
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Conductor",
+          "horas": 8,
+          "costo_hora": 50
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 900,
+          "descripcion": "Material termoplástico (lb)",
+          "precio_unitario": 20,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 90,
+          "descripcion": "Microesferas reflectivas (lb)",
+          "precio_unitario": 20,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 15,
+          "descripcion": "Imprimante / primer (gal)",
+          "precio_unitario": 170,
+          "unidad": "gal"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 2624.86,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 30.0,
+      "hoja_fuente": "601_07_02_A",
+      "precio_unitario_final": 30
+    },
+    "Co 601.07.02.B": {
+      "codigo": "Co 601.07.02.B",
+      "descripcion": "Suministro y Aplicación de Pintura Termoplástica en Líneas de Pavimento de 12 cm de ancho",
+      "unidad": "ml",
+      "rendimiento": 1300,
+      "rendimiento_unidad": "ml/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Máquina autopropulsada termoplástica",
+          "horas": 8,
+          "costo_hora": 380
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Caldera premelting",
+          "horas": 8,
+          "costo_hora": 180
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup 3.4 ton",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Compresor",
+          "horas": 8,
+          "costo_hora": 50
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado",
+          "horas": 8,
+          "costo_hora": 80
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Operador",
+          "horas": 8,
+          "costo_hora": 70
+        },
+        {
+          "cantidad": 4,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Conductor",
+          "horas": 8,
+          "costo_hora": 50
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1040,
+          "descripcion": "Material termoplástico (lb)",
+          "precio_unitario": 20,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 104,
+          "descripcion": "Microesferas (lb)",
+          "precio_unitario": 20,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 17,
+          "descripcion": "Imprimante (gal)",
+          "precio_unitario": 170,
+          "unidad": "gal"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 4204.86,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 40.0,
+      "hoja_fuente": "601_07_02_B",
+      "precio_unitario_final": 40
+    },
+    "Co 601.07.02.C": {
+      "codigo": "Co 601.07.02.C",
+      "descripcion": "Suministro y Aplicación de Pintura Termoplástica en Líneas de Pavimento de 15 cm de ancho",
+      "unidad": "ml",
+      "rendimiento": 1050,
+      "rendimiento_unidad": "ml/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Máquina autopropulsada termoplástica",
+          "horas": 8,
+          "costo_hora": 380
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Caldera premelting",
+          "horas": 8,
+          "costo_hora": 180
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Compresor",
+          "horas": 8,
+          "costo_hora": 50
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado",
+          "horas": 8,
+          "costo_hora": 80
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Operador",
+          "horas": 8,
+          "costo_hora": 70
+        },
+        {
+          "cantidad": 4,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Conductor",
+          "horas": 8,
+          "costo_hora": 50
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1050,
+          "descripcion": "Material termoplástico (lb)",
+          "precio_unitario": 20,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 105,
+          "descripcion": "Microesferas (lb)",
+          "precio_unitario": 20,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 18,
+          "descripcion": "Imprimante (gal)",
+          "precio_unitario": 170,
+          "unidad": "gal"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 4172,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 50.0,
+      "hoja_fuente": "601_07_02_C",
+      "precio_unitario_final": 50
+    },
+    "Co 601.07.02.F": {
+      "codigo": "Co 601.07.02.F",
+      "descripcion": "Suministro y aplicación de Primer en pavimento de concreto para línea de 15 cm.",
+      "unidad": "ml",
+      "rendimiento": 1800,
+      "rendimiento_unidad": "ml/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Compresor de aire",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup 3.4 ton",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Sopladora",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Pintores",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [],
+      "precio_unitario_referencia": 1.76,
+      "hoja_fuente": "601_07_02_F",
+      "precio_unitario_final": 10
+    },
+    "Co 604": {
+      "codigo": "Co 604",
+      "descripcion": "Marcadores reflectivos de pavimento (Vialetas)",
+      "unidad": "Unidad",
+      "rendimiento": 120,
+      "rendimiento_unidad": "Unidad/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup 3.4 ton",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola de calor",
+          "horas": 8,
+          "costo_hora": 20
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Compresor",
+          "horas": 8,
+          "costo_hora": 50
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 812,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 35.14,
+      "hoja_fuente": "604",
+      "precio_unitario_final": 140
+    },
+    "Co 601.07.01.G": {
+      "codigo": "Co 601.07.01.G",
+      "descripcion": "Suministro y Aplicación de Pintura de Tráfico en Reductores de Velocidad",
+      "unidad": "m²",
+      "rendimiento": 70,
+      "rendimiento_unidad": "m²/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Compresor de aire",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola airless",
+          "horas": 8,
+          "costo_hora": 40
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Pintores",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 744,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 61.44,
+      "hoja_fuente": "601_07_01_G",
+      "precio_unitario_final": 150
+    },
+    "Co 601.07.01.I": {
+      "codigo": "Co 601.07.01.I",
+      "descripcion": "Pintura en Jersey de concreto (Ambas Caras)",
+      "unidad": "m²",
+      "rendimiento": 95,
+      "rendimiento_unidad": "m²/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Compresor",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola airless",
+          "horas": 8,
+          "costo_hora": 40
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 3,
+          "descripcion": "Pintores",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [],
+      "precio_unitario_referencia": 39.26,
+      "hoja_fuente": "601_07_01_I",
+      "precio_unitario_final": 110
+    },
+    "Co 601.07.01.I(1)": {
+      "codigo": "Co 601.07.01.I(1)",
+      "descripcion": "Cuadrado Reflectivo para Jersey de concreto (Vialeta Vertical)",
+      "unidad": "Unidad",
+      "rendimiento": 80,
+      "rendimiento_unidad": "Unidad/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola de calor",
+          "horas": 8,
+          "costo_hora": 20
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Ayudante",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [],
+      "precio_unitario_referencia": 16.73,
+      "hoja_fuente": "601_07_01_I1",
+      "precio_unitario_final": 90
+    },
+    "Co 601.07.03": {
+      "codigo": "Co 601.07.03",
+      "descripcion": "Reductores de Velocidad tipo vibrador, 10 cm. ancho, e=0.01m (Bandas Alertadoras Termoplásticas)",
+      "unidad": "ml",
+      "rendimiento": 200,
+      "rendimiento_unidad": "ml/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Máquina termoplástica",
+          "horas": 8,
+          "costo_hora": 380
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Caldera",
+          "horas": 8,
+          "costo_hora": 180
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Operador",
+          "horas": 8,
+          "costo_hora": 70
+        },
+        {
+          "cantidad": 3,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 4,
+          "descripcion": "Imprimante (gal)",
+          "precio_unitario": 170,
+          "unidad": "gal"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 612.57,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 47.58,
+      "hoja_fuente": "601_07_03",
+      "precio_unitario_final": 80
+    },
+    "Co 602.02.a.01": {
+      "codigo": "Co 602.02.a.01",
+      "descripcion": "Señales de Información general (Un tablero) (0.40 x 2.40 m)",
+      "unidad": "Señal",
+      "rendimiento": 5,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup 3.4 ton",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno de pedestal",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 60
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 5,
+          "descripcion": "Tubo poste galvanizado 2\" (4 m)",
+          "precio_unitario": 680,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 5,
+          "descripcion": "Concreto cimentación",
+          "precio_unitario": 200,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 5,
+          "descripcion": "Tornillería y abrazaderas",
+          "precio_unitario": 190,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 763.43,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 2421.84,
+      "hoja_fuente": "602_02_a_01",
+      "precio_unitario_final": 4290
+    },
+    "Co 602.02.a.02": {
+      "codigo": "Co 602.02.a.02",
+      "descripcion": "Señales de Información general (Dos tableros) (0.40 x 2.40 m)",
+      "unidad": "Señal",
+      "rendimiento": 2,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 60
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 2,
+          "descripcion": "Postes galvanizados (2)",
+          "precio_unitario": 1360,
+          "unidad": "juego"
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Cimentación, herrajes",
+          "precio_unitario": 680,
+          "unidad": "juego"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 612,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 5059.6,
+      "hoja_fuente": "602_02_a_02",
+      "precio_unitario_final": 8890
+    },
+    "Co 602.02.a.05": {
+      "codigo": "Co 602.02.a.05",
+      "descripcion": "Señales kilometraje con Ruta (0.30 x 1.20 m)",
+      "unidad": "Señal",
+      "rendimiento": 10,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 10,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 130,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 552,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 446.32,
+      "hoja_fuente": "602_02_a_05",
+      "precio_unitario_final": 1610
+    },
+    "Co 602.02.a.06": {
+      "codigo": "Co 602.02.a.06",
+      "descripcion": "Señales kilometraje sin Ruta (0.30 x 0.78 m)",
+      "unidad": "Señal",
+      "rendimiento": 12,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 12,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 120,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 614.86,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 395.6,
+      "hoja_fuente": "602_02_a_06",
+      "precio_unitario_final": 1370
+    },
+    "Co 602.02.a.09": {
+      "codigo": "Co 602.02.a.09",
+      "descripcion": "Señales Informativa de Servicios (0.61 x 0.61 m)",
+      "unidad": "Señal",
+      "rendimiento": 8,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 8,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 140,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 557.71,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 527.4,
+      "hoja_fuente": "602_02_a_09",
+      "precio_unitario_final": 2010
+    },
+    "Co 602.02.a.11": {
+      "codigo": "Co 602.02.a.11",
+      "descripcion": "Señales Informativa de Destino un tablero (0.40 x 2.40 m)",
+      "unidad": "Señal",
+      "rendimiento": 5,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 60
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 5,
+          "descripcion": "Poste galvanizado",
+          "precio_unitario": 680,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 5,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 200,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 5,
+          "descripcion": "Serigrafía leyenda destino",
+          "precio_unitario": 220,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 770.57,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 2465.84,
+      "hoja_fuente": "602_02_a_11",
+      "precio_unitario_final": 4390
+    },
+    "Co 602.02.a.12": {
+      "codigo": "Co 602.02.a.12",
+      "descripcion": "Señales Informativa de Destino dos tableros (0.40 x 2.40 m)",
+      "unidad": "Señal",
+      "rendimiento": 2,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 60
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 2,
+          "descripcion": "Postes galvanizados",
+          "precio_unitario": 1360,
+          "unidad": "juego"
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Cimentación y herrajes",
+          "precio_unitario": 680,
+          "unidad": "juego"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 623.43,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 5067.6,
+      "hoja_fuente": "602_02_a_12",
+      "precio_unitario_final": 9010
+    },
+    "Co 602.02.a.13": {
+      "codigo": "Co 602.02.a.13",
+      "descripcion": "Señales Informativa de Destino tres tableros (0.40 x 2.40 m)",
+      "unidad": "Señal",
+      "rendimiento": 2,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 3,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 60
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 2,
+          "descripcion": "Postes galvanizados",
+          "precio_unitario": 1800,
+          "unidad": "juego"
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Cimentación y herrajes",
+          "precio_unitario": 920,
+          "unidad": "juego"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 836.57,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 6521.6,
+      "hoja_fuente": "602_02_a_13",
+      "precio_unitario_final": 12200
+    },
+    "Co 602.02.a.14": {
+      "codigo": "Co 602.02.a.14",
+      "descripcion": "Señal Informativa de Destino bandera simple de un tablero",
+      "unidad": "Señal",
+      "rendimiento": 4,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 60
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 4,
+          "descripcion": "Estructura bandera + poste",
+          "precio_unitario": 1180,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 4,
+          "descripcion": "Cimentación y herrajes",
+          "precio_unitario": 300,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 763.43,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 3226.8,
+      "hoja_fuente": "602_02_a_14",
+      "precio_unitario_final": 5450
+    },
+    "Co 602.02.a.15": {
+      "codigo": "Co 602.02.a.15",
+      "descripcion": "Señal Informativa de Destino bandera simple doble tablero",
+      "unidad": "Señal",
+      "rendimiento": 2,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 60
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 2,
+          "descripcion": "Estructura bandera + poste doble",
+          "precio_unitario": 1880,
+          "unidad": "juego"
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Cimentación y herrajes",
+          "precio_unitario": 520,
+          "unidad": "juego"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 672,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 5605.6,
+      "hoja_fuente": "602_02_a_15",
+      "precio_unitario_final": 9800
+    },
+    "Co 602.02.b.01": {
+      "codigo": "Co 602.02.b.01",
+      "descripcion": "Señales Preventiva \"A\" (0.914 x 0.914 m)",
+      "unidad": "Señal",
+      "rendimiento": 7,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 7,
+          "descripcion": "Poste galvanizado",
+          "precio_unitario": 330,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 7,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 150,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 660,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 1277.6,
+      "hoja_fuente": "602_02_b_01",
+      "precio_unitario_final": 2630
+    },
+    "Co 602.02.b.02": {
+      "codigo": "Co 602.02.b.02",
+      "descripcion": "Señales Preventiva \"B\" (0.762 x 0.762 m)",
+      "unidad": "Señal",
+      "rendimiento": 8,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 8,
+          "descripcion": "Poste galvanizado",
+          "precio_unitario": 310,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 8,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 140,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 651.43,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 1158.4,
+      "hoja_fuente": "602_02_b_02",
+      "precio_unitario_final": 2270
+    },
+    "Co 602.02.b.03a": {
+      "codigo": "Co 602.02.b.03a",
+      "descripcion": "Tablero adicional para Señal Preventiva \"A\" (0.381 x 0.914 m)",
+      "unidad": "Señal",
+      "rendimiento": 12,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 454.29,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 201.4,
+      "hoja_fuente": "602_02_b_03a",
+      "precio_unitario_final": 1110
+    },
+    "Co 602.02.b.03b": {
+      "codigo": "Co 602.02.b.03b",
+      "descripcion": "Tablero adicional para Señal Preventiva \"B\" (0.317 x 0.762 m)",
+      "unidad": "Señal",
+      "rendimiento": 14,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 540,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 181.2,
+      "hoja_fuente": "602_02_b_03b",
+      "precio_unitario_final": 940
+    },
+    "Co 602.02.b.04": {
+      "codigo": "Co 602.02.b.04",
+      "descripcion": "Delineadores de dirección tipo Chevron (0.762 x 0.914 m)",
+      "unidad": "Señal",
+      "rendimiento": 10,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 10,
+          "descripcion": "Poste galvanizado",
+          "precio_unitario": 310,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 10,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 140,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 688.57,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 1057.92,
+      "hoja_fuente": "602_02_b_04",
+      "precio_unitario_final": 2020
+    },
+    "Co 602.02.b.04.a": {
+      "codigo": "Co 602.02.b.04.a",
+      "descripcion": "Delineadores de dirección tipo Chevron (0.57 x 0.76 m)",
+      "unidad": "Señal",
+      "rendimiento": 12,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 12,
+          "descripcion": "Poste galvanizado",
+          "precio_unitario": 300,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 12,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 130,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 765.71,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 967.6,
+      "hoja_fuente": "602_02_b_04_a",
+      "precio_unitario_final": 1690
+    },
+    "Co 602.02.b.04.b": {
+      "codigo": "Co 602.02.b.04.b",
+      "descripcion": "Delineadores de dirección tipo Chevron (0.20 x 0.30 m)",
+      "unidad": "Señal",
+      "rendimiento": 30,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Ayudante",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 591.43,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 75.2,
+      "hoja_fuente": "602_02_b_04_b",
+      "precio_unitario_final": 400
+    },
+    "Co 602.02.b.06.b": {
+      "codigo": "Co 602.02.b.06.b",
+      "descripcion": "Señal delineadora de objetos (0.30 x 1.20 m)",
+      "unidad": "Señal",
+      "rendimiento": 9,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 9,
+          "descripcion": "Poste galvanizado",
+          "precio_unitario": 290,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 9,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 130,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 611.43,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 1051.47,
+      "hoja_fuente": "602_02_b_06_b",
+      "precio_unitario_final": 1800
+    },
+    "Co 602.02.c.01": {
+      "codigo": "Co 602.02.c.01",
+      "descripcion": "Señales Restrictiva \"A\" (0.914 x 1.372 m)",
+      "unidad": "Señal",
+      "rendimiento": 6,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 60
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 6,
+          "descripcion": "Poste galvanizado",
+          "precio_unitario": 370,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 6,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 170,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 743.43,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 1521.2,
+      "hoja_fuente": "602_02_c_01",
+      "precio_unitario_final": 3470
+    },
+    "Co 602.02.c.02": {
+      "codigo": "Co 602.02.c.02",
+      "descripcion": "Señales Restrictiva \"B\" (0.61 x 0.914 m)",
+      "unidad": "Señal",
+      "rendimiento": 8,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 8,
+          "descripcion": "Poste galvanizado",
+          "precio_unitario": 320,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 8,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 140,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 651.43,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 1172.4,
+      "hoja_fuente": "602_02_c_02",
+      "precio_unitario_final": 2200
+    },
+    "Co 602.02.c.03": {
+      "codigo": "Co 602.02.c.03",
+      "descripcion": "Señales Restrictiva CEDA EL PASO (0.914 x 0.914 m)",
+      "unidad": "Señal",
+      "rendimiento": 7,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 7,
+          "descripcion": "Poste galvanizado",
+          "precio_unitario": 330,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 7,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 150,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 620,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 1269.6,
+      "hoja_fuente": "602_02_c_03",
+      "precio_unitario_final": 2510
+    },
+    "Co 602.02.c.04": {
+      "codigo": "Co 602.02.c.04",
+      "descripcion": "Señales Restrictiva ALTO (0.914 x 0.914 m)",
+      "unidad": "Señal",
+      "rendimiento": 7,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Pistola fulminantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Instaladores",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 7,
+          "descripcion": "Poste galvanizado",
+          "precio_unitario": 330,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 7,
+          "descripcion": "Cimentación y tornillería",
+          "precio_unitario": 150,
+          "unidad": "unid"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles, fletes, señalización temporal y otros",
+          "precio_unitario": 620,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_referencia": 1269.6,
+      "hoja_fuente": "602_02_c_04",
+      "precio_unitario_final": 2580
+    },
+    "Co 602.09": {
+      "codigo": "Co 602.09",
+      "descripcion": "Delineadores Verticales",
+      "unidad": "Señal",
+      "rendimiento": 22,
+      "rendimiento_unidad": "Señal/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pickup",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Barreno",
+          "horas": 8,
+          "costo_hora": 40
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [],
+      "precio_unitario_referencia": 85.02,
+      "hoja_fuente": "602_09",
+      "precio_unitario_final": 730
+    },
+    "Co 201.01": {
+      "codigo": "Co 201.01",
+      "descripcion": "Limpieza, chapeo y destronque",
+      "unidad": "m2",
+      "aliases": [
+        "limpieza chapeo destronque",
+        "limpieza y chapeo",
+        "chapeo y destronque",
+        "desmonte"
+      ],
+      "rendimiento": 600,
+      "rendimiento_unidad": "m2/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Motosierra mediana",
+          "horas": 8,
+          "costo_hora": 25
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Tractor bulldozer D6 (uso compartido 4 hrs)",
+          "horas": 4,
+          "costo_hora": 450
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Camión volqueteo 12 m3",
+          "horas": 4,
+          "costo_hora": 200
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 70
+        },
+        {
+          "cantidad": 4,
+          "descripcion": "Peones / chapeadores",
+          "horas": 8,
+          "costo_hora": 25
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Operador motosierra",
+          "horas": 8,
+          "costo_hora": 55
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Combustible y consumibles",
+          "precio_unitario": 350,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 11
+    },
+    "Co 202.01": {
+      "codigo": "Co 202.01",
+      "descripcion": "Replanteo, trazo y nivelación topográfica",
+      "unidad": "m2",
+      "aliases": [
+        "replanteo trazo nivelacion",
+        "trazo y replanteo",
+        "trazo y replanteo de calle",
+        "replanteo y levantamiento topografico",
+        "replanteo trazo y nivelacion"
+      ],
+      "rendimiento": 800,
+      "rendimiento_unidad": "m2/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Estación total con trípode",
+          "horas": 8,
+          "costo_hora": 120
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "GPS topográfico",
+          "horas": 8,
+          "costo_hora": 40
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Vehículo pickup",
+          "horas": 8,
+          "costo_hora": 90
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Topógrafo certificado",
+          "horas": 8,
+          "costo_hora": 150
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Cadeneros",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Estacas, pintura, clavos y consumibles",
+          "precio_unitario": 250,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 5
+    },
+    "Co 203.01": {
+      "codigo": "Co 203.01",
+      "descripcion": "Demolición y retiro de carpeta de rodadura existente",
+      "unidad": "m2",
+      "aliases": [
+        "demolicion y retiro de carpeta",
+        "demolicion carpeta existente",
+        "retiro de carpeta de rodadura"
+      ],
+      "rendimiento": 250,
+      "rendimiento_unidad": "m2/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Retroexcavadora con martillo hidráulico",
+          "horas": 8,
+          "costo_hora": 380
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Camión volqueteo 12 m3",
+          "horas": 8,
+          "costo_hora": 200
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Compresor con martillos neumáticos",
+          "horas": 8,
+          "costo_hora": 90
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 75
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Operador retroexcavadora",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 4,
+          "descripcion": "Ayudantes / peones",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Consumibles y disposición de material",
+          "precio_unitario": 800,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 65
+    },
+    "Co 301.01": {
+      "codigo": "Co 301.01",
+      "descripcion": "Excavación no clasificada de desperdicio",
+      "unidad": "m3",
+      "aliases": [
+        "excavacion no clasificada",
+        "excavacion no clasificada de desperdicio",
+        "movimiento de tierra",
+        "corte de cajuela y acarreo",
+        "corte de cajuela"
+      ],
+      "rendimiento": 280,
+      "rendimiento_unidad": "m3/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Excavadora hidráulica 20 ton",
+          "horas": 8,
+          "costo_hora": 480
+        },
+        {
+          "cantidad": 3,
+          "descripcion": "Camión volqueteo 14 m3",
+          "horas": 8,
+          "costo_hora": 220
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Tractor de empuje D6",
+          "horas": 8,
+          "costo_hora": 420
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 80
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Operador excavadora",
+          "horas": 8,
+          "costo_hora": 95
+        },
+        {
+          "cantidad": 3,
+          "descripcion": "Conductores volqueteo",
+          "horas": 8,
+          "costo_hora": 55
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Banderilleros",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Combustible y disposición de material",
+          "precio_unitario": 1200,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 65
+    },
+    "Co 302.01": {
+      "codigo": "Co 302.01",
+      "descripcion": "Relleno con material clasificado y compactación",
+      "unidad": "m3",
+      "aliases": [
+        "relleno con material clasificado",
+        "relleno controlado",
+        "material de relleno",
+        "relleno"
+      ],
+      "rendimiento": 200,
+      "rendimiento_unidad": "m3/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Compactador vibratorio 10 ton",
+          "horas": 8,
+          "costo_hora": 320
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Motoniveladora 140G",
+          "horas": 8,
+          "costo_hora": 450
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Cisterna de agua 5000 gal",
+          "horas": 8,
+          "costo_hora": 220
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Camión volqueteo 14 m3",
+          "horas": 8,
+          "costo_hora": 220
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 80
+        },
+        {
+          "cantidad": 3,
+          "descripcion": "Operadores",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1.1,
+          "descripcion": "Material selecto clasificado (m3 con factor abundamiento)",
+          "precio_unitario": 95,
+          "unidad": "m3"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Combustible y consumibles",
+          "precio_unitario": 350,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 145
+    },
+    "Co 304.01": {
+      "codigo": "Co 304.01",
+      "descripcion": "Escarificación, conformación y compactación de subrasante",
+      "unidad": "m2",
+      "aliases": [
+        "escarificacion conformacion y compactacion de subrasante",
+        "conformacion de subrasante",
+        "estabilizacion de subrasante",
+        "subrasante compactada"
+      ],
+      "rendimiento": 1800,
+      "rendimiento_unidad": "m2/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Motoniveladora 140G",
+          "horas": 8,
+          "costo_hora": 450
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Compactador vibratorio 10 ton",
+          "horas": 8,
+          "costo_hora": 320
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Cisterna de agua 5000 gal",
+          "horas": 8,
+          "costo_hora": 220
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 80
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Operadores",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Combustible y consumibles",
+          "precio_unitario": 450,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 20
+    },
+    "Co 305.01": {
+      "codigo": "Co 305.01",
+      "descripcion": "Tendido, afinado y compactado de base granular",
+      "unidad": "m2",
+      "aliases": [
+        "tendido afinado y compactado de base granular",
+        "base granular tendida",
+        "base granular compactada",
+        "capa base granular compactada",
+        "tendido y compactacion de base"
+      ],
+      "rendimiento": 1500,
+      "rendimiento_unidad": "m2/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Motoniveladora 140G",
+          "horas": 8,
+          "costo_hora": 450
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Compactador vibratorio 10 ton",
+          "horas": 8,
+          "costo_hora": 320
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Cisterna de agua 5000 gal",
+          "horas": 8,
+          "costo_hora": 220
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 80
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Operadores",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 3,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Combustible y consumibles",
+          "precio_unitario": 400,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 45
+    },
+    "Co 305.02": {
+      "codigo": "Co 305.02",
+      "descripcion": "Material granular para base (suministro)",
+      "unidad": "m3",
+      "aliases": [
+        "material granular para base",
+        "material base granular",
+        "capa de base granular"
+      ],
+      "rendimiento": 1,
+      "rendimiento_unidad": "m3 (precio por unidad)",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Camión volqueteo (acarreo prorrateado)",
+          "horas": 0.15,
+          "costo_hora": 220
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Ayudante (descarga prorrateada)",
+          "horas": 0.05,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1.05,
+          "descripcion": "Material granular triturado para base (con abundamiento)",
+          "precio_unitario": 220,
+          "unidad": "m3"
+        }
+      ],
+      "precio_unitario_estimado": 280
+    },
+    "Co 501.01": {
+      "codigo": "Co 501.01",
+      "descripcion": "Pavimento de concreto hidráulico 4000 PSI e=0.15 m",
+      "unidad": "m2",
+      "aliases": [
+        "concreto hidraulico 4000 psi",
+        "pavimento de concreto 4000 psi",
+        "pavimento rigido de concreto hidraulico 4000 psi",
+        "pavimento de concreto t=0.15",
+        "pavimento de concreto e=0.15",
+        "concreto hidraulico"
+      ],
+      "rendimiento": 250,
+      "rendimiento_unidad": "m2/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Pavimentadora de concreto / regla vibratoria",
+          "horas": 8,
+          "costo_hora": 220
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Camión mixer concretero 8 m3",
+          "horas": 8,
+          "costo_hora": 380
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Vibrador de inmersión",
+          "horas": 8,
+          "costo_hora": 35
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Allanadora mecánica",
+          "horas": 8,
+          "costo_hora": 60
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Maestro de obras",
+          "horas": 8,
+          "costo_hora": 75
+        },
+        {
+          "cantidad": 6,
+          "descripcion": "Albañiles",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 4,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 0.155,
+          "descripcion": "Concreto premezclado 4000 PSI (m3 por m2 con 15 cm + desperdicio)",
+          "precio_unitario": 1450,
+          "unidad": "m3"
+        },
+        {
+          "cantidad": 0.4,
+          "descripcion": "Acero refuerzo (lb por m2 para juntas y dovelas)",
+          "precio_unitario": 7,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Curador, sellador, polietileno y formaletas",
+          "precio_unitario": 35,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 460
+    },
+    "Co 503.01": {
+      "codigo": "Co 503.01",
+      "descripcion": "Carpeta de adoquín tráfico pesado",
+      "unidad": "m2",
+      "aliases": [
+        "carpeta de adoquin",
+        "adoquin trafico pesado",
+        "pavimento de adoquin"
+      ],
+      "rendimiento": 80,
+      "rendimiento_unidad": "m2/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Compactador plato vibratorio",
+          "horas": 8,
+          "costo_hora": 80
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Camión volqueteo (acarreo)",
+          "horas": 4,
+          "costo_hora": 200
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 80
+        },
+        {
+          "cantidad": 4,
+          "descripcion": "Adoquineros (oficiales)",
+          "horas": 8,
+          "costo_hora": 60
+        },
+        {
+          "cantidad": 4,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 50,
+          "descripcion": "Adoquín tráfico pesado e=10 cm (unidades por m2)",
+          "precio_unitario": 4.8,
+          "unidad": "und"
+        },
+        {
+          "cantidad": 0.05,
+          "descripcion": "Arena de asiento (m3 por m2)",
+          "precio_unitario": 280,
+          "unidad": "m3"
+        },
+        {
+          "cantidad": 0.005,
+          "descripcion": "Arena para sellado (m3 por m2)",
+          "precio_unitario": 280,
+          "unidad": "m3"
+        }
+      ],
+      "precio_unitario_estimado": 320
+    },
+    "Co 502.01": {
+      "codigo": "Co 502.01",
+      "descripcion": "Badén de concreto reforzado",
+      "unidad": "m2",
+      "aliases": [
+        "baden de concreto",
+        "baden vehicular"
+      ],
+      "rendimiento": 30,
+      "rendimiento_unidad": "m2/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Mezcladora de concreto 1 saco",
+          "horas": 8,
+          "costo_hora": 45
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Vibrador de inmersión",
+          "horas": 8,
+          "costo_hora": 35
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 75
+        },
+        {
+          "cantidad": 3,
+          "descripcion": "Albañiles",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 3,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 0.22,
+          "descripcion": "Concreto premezclado 3000 PSI (m3 por m2 con 22 cm de espesor)",
+          "precio_unitario": 1380,
+          "unidad": "m3"
+        },
+        {
+          "cantidad": 12,
+          "descripcion": "Acero refuerzo (lb por m2)",
+          "precio_unitario": 7,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Formaleta y consumibles",
+          "precio_unitario": 60,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 550
+    },
+    "Co 605.01": {
+      "codigo": "Co 605.01",
+      "descripcion": "Cuneta revestida tipo L de concreto",
+      "unidad": "ml",
+      "aliases": [
+        "cuneta revestida tipo l",
+        "cunetas revestidas tipo l",
+        "cuneta tipo l",
+        "cunetas revestidas",
+        "cuneta de desfogue"
+      ],
+      "rendimiento": 40,
+      "rendimiento_unidad": "ml/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Mezcladora de concreto 1 saco",
+          "horas": 8,
+          "costo_hora": 45
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Vibrador de inmersión",
+          "horas": 8,
+          "costo_hora": 35
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 70
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Albañiles",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 3,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 0.12,
+          "descripcion": "Concreto premezclado 3000 PSI (m3 por ml)",
+          "precio_unitario": 1380,
+          "unidad": "m3"
+        },
+        {
+          "cantidad": 6,
+          "descripcion": "Acero refuerzo (lb por ml)",
+          "precio_unitario": 7,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Formaleta y consumibles",
+          "precio_unitario": 40,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 230
+    },
+    "Co 606.01": {
+      "codigo": "Co 606.01",
+      "descripcion": "Drenaje transversal con tubería de 36 pulgadas",
+      "unidad": "ml",
+      "aliases": [
+        "drenaje transversal 36 pulgadas",
+        "drenaje transversal de 36 pulgadas",
+        "transversales pvc corrugado 36 pulgadas",
+        "drenaje transversal con tuberia galvanizada corrugada de 36 pulgadas",
+        "tuberia 36 pulgadas drenaje"
+      ],
+      "rendimiento": 12,
+      "rendimiento_unidad": "ml/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Retroexcavadora",
+          "horas": 8,
+          "costo_hora": 380
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Compactador manual rana",
+          "horas": 8,
+          "costo_hora": 50
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 75
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Operador retroexcavadora",
+          "horas": 8,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 4,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Tubería PVC/metálica corrugada 36 pulgadas (ml)",
+          "precio_unitario": 850,
+          "unidad": "ml"
+        },
+        {
+          "cantidad": 0.4,
+          "descripcion": "Concreto para cama y abrigo (m3 por ml)",
+          "precio_unitario": 1380,
+          "unidad": "m3"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Material selecto y consumibles",
+          "precio_unitario": 120,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 1100
+    },
+    "Co 606.02": {
+      "codigo": "Co 606.02",
+      "descripcion": "Cajas de entrada para drenaje",
+      "unidad": "unidad",
+      "aliases": [
+        "cajas de entrada",
+        "caja de entrada drenaje"
+      ],
+      "rendimiento": 1,
+      "rendimiento_unidad": "unidad/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Mezcladora de concreto 1 saco",
+          "horas": 8,
+          "costo_hora": 45
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 75
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Albañiles",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1.2,
+          "descripcion": "Concreto premezclado 3000 PSI (m3)",
+          "precio_unitario": 1380,
+          "unidad": "m3"
+        },
+        {
+          "cantidad": 90,
+          "descripcion": "Acero refuerzo (lb)",
+          "precio_unitario": 7,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Tapa metálica, formaleta y consumibles",
+          "precio_unitario": 600,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 4500
+    },
+    "Co 606.03": {
+      "codigo": "Co 606.03",
+      "descripcion": "Cabezales de salida para drenaje",
+      "unidad": "unidad",
+      "aliases": [
+        "cabezales de salida",
+        "cabezal de salida drenaje"
+      ],
+      "rendimiento": 1,
+      "rendimiento_unidad": "unidad/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Mezcladora de concreto 1 saco",
+          "horas": 8,
+          "costo_hora": 45
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 75
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Albañiles",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1.5,
+          "descripcion": "Concreto premezclado 3000 PSI (m3)",
+          "precio_unitario": 1380,
+          "unidad": "m3"
+        },
+        {
+          "cantidad": 120,
+          "descripcion": "Acero refuerzo (lb)",
+          "precio_unitario": 7,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Formaleta y consumibles",
+          "precio_unitario": 500,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 5500
+    },
+    "Co 701.01": {
+      "codigo": "Co 701.01",
+      "descripcion": "Muro de contención de concreto ciclópeo",
+      "unidad": "m3",
+      "aliases": [
+        "muro de contencion de concreto ciclopeo",
+        "muro de concreto ciclopeo",
+        "muro ciclopeo"
+      ],
+      "rendimiento": 4,
+      "rendimiento_unidad": "m3/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Mezcladora de concreto 1 saco",
+          "horas": 8,
+          "costo_hora": 45
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Vibrador de inmersión",
+          "horas": 8,
+          "costo_hora": 35
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 80
+        },
+        {
+          "cantidad": 3,
+          "descripcion": "Albañiles",
+          "horas": 8,
+          "costo_hora": 55
+        },
+        {
+          "cantidad": 4,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 0.6,
+          "descripcion": "Concreto premezclado 3000 PSI (m3 por m3 mezcla 60/40)",
+          "precio_unitario": 1380,
+          "unidad": "m3"
+        },
+        {
+          "cantidad": 0.45,
+          "descripcion": "Piedra bola/canto rodado (m3)",
+          "precio_unitario": 280,
+          "unidad": "m3"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Formaleta y consumibles",
+          "precio_unitario": 250,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 2150
+    },
+    "Co 702.01": {
+      "codigo": "Co 702.01",
+      "descripcion": "Bordillo de concreto",
+      "unidad": "ml",
+      "aliases": [
+        "bordillo de concreto",
+        "bordillo fundido lateral",
+        "bordillo de concreto armado",
+        "bordillo de concreto 0.10 x 0.35",
+        "llaves de confinamiento"
+      ],
+      "rendimiento": 50,
+      "rendimiento_unidad": "ml/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Mezcladora de concreto 1 saco",
+          "horas": 8,
+          "costo_hora": 45
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Vibrador de inmersión",
+          "horas": 8,
+          "costo_hora": 35
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 70
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Albañiles",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 0.045,
+          "descripcion": "Concreto premezclado 3000 PSI (m3 por ml)",
+          "precio_unitario": 1380,
+          "unidad": "m3"
+        },
+        {
+          "cantidad": 3,
+          "descripcion": "Acero refuerzo (lb por ml)",
+          "precio_unitario": 7,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Formaleta y consumibles",
+          "precio_unitario": 25,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 175
+    },
+    "Co 703.01": {
+      "codigo": "Co 703.01",
+      "descripcion": "Corte y sellado de juntas de pavimento",
+      "unidad": "ml",
+      "aliases": [
+        "corte y sellado de juntas",
+        "corte de juntas longitudinales y transversales",
+        "sellado de juntas pavimento"
+      ],
+      "rendimiento": 200,
+      "rendimiento_unidad": "ml/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Cortadora de juntas con disco diamante",
+          "horas": 8,
+          "costo_hora": 80
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Compresor de aire",
+          "horas": 8,
+          "costo_hora": 50
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado",
+          "horas": 8,
+          "costo_hora": 65
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Operarios",
+          "horas": 8,
+          "costo_hora": 50
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Ayudante",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Sellador asfáltico de juntas (kg por ml aprox.)",
+          "precio_unitario": 18,
+          "unidad": "kg"
+        },
+        {
+          "cantidad": 0.05,
+          "descripcion": "Disco diamante (desgaste por ml)",
+          "precio_unitario": 850,
+          "unidad": "und"
+        }
+      ],
+      "precio_unitario_estimado": 50
+    },
+    "Co 800.01": {
+      "codigo": "Co 800.01",
+      "descripcion": "Construcción de puente vehicular tipo bóveda",
+      "unidad": "unidad",
+      "aliases": [
+        "construccion puente tipo boveda",
+        "puente tipo boveda",
+        "puente vehicular boveda"
+      ],
+      "rendimiento": 0.02,
+      "rendimiento_unidad": "unidad/día (aprox. 50 días por puente pequeño)",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Retroexcavadora",
+          "horas": 8,
+          "costo_hora": 380
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Camión mixer",
+          "horas": 8,
+          "costo_hora": 380
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Andamios y formaleta especializada",
+          "horas": 8,
+          "costo_hora": 180
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Ing. residente especializado",
+          "horas": 8,
+          "costo_hora": 180
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado",
+          "horas": 8,
+          "costo_hora": 85
+        },
+        {
+          "cantidad": 6,
+          "descripcion": "Albañiles",
+          "horas": 8,
+          "costo_hora": 55
+        },
+        {
+          "cantidad": 8,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 80,
+          "descripcion": "Concreto premezclado 4000 PSI (m3 promedio puente pequeño)",
+          "precio_unitario": 1450,
+          "unidad": "m3"
+        },
+        {
+          "cantidad": 8500,
+          "descripcion": "Acero estructural (lb)",
+          "precio_unitario": 8,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Formaleta especializada y consumibles",
+          "precio_unitario": 35000,
+          "unidad": "global"
+        }
+      ],
+      "precio_unitario_estimado": 285000
+    },
+    "Co 901.01": {
+      "codigo": "Co 901.01",
+      "descripcion": "Rótulo informativo de obra",
+      "unidad": "unidad",
+      "aliases": [
+        "rotulo informativo de obra",
+        "rotulo de proyecto",
+        "rotulo del proyecto",
+        "area de rotulo del proyecto"
+      ],
+      "rendimiento": 0.5,
+      "rendimiento_unidad": "unidad/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Vehículo pickup",
+          "horas": 4,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Herramienta menor",
+          "horas": 8,
+          "costo_hora": 15
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Maestro de obras",
+          "horas": 8,
+          "costo_hora": 75
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Lámina rotulada vinil 2.00 x 1.50 m con marco metálico y bases",
+          "precio_unitario": 4500,
+          "unidad": "und"
+        }
+      ],
+      "precio_unitario_estimado": 5800
+    },
+    "Co 902.01": {
+      "codigo": "Co 902.01",
+      "descripcion": "Mitigación ambiental — siembra de árbol nativo",
+      "unidad": "unidad",
+      "aliases": [
+        "entrega de arbolitos nativos",
+        "arboles nativos para mitigacion ambiental",
+        "arbol nativo mitigacion",
+        "arbolitos nativos como mitigacion ambiental"
+      ],
+      "rendimiento": 50,
+      "rendimiento_unidad": "unidad/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Vehículo pickup (acarreo prorrateado)",
+          "horas": 0.1,
+          "costo_hora": 90
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Ayudante (siembra prorrateada)",
+          "horas": 0.1,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Arbolito nativo en bolsa con sustrato",
+          "precio_unitario": 60,
+          "unidad": "und"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Tutor de madera y amarre",
+          "precio_unitario": 12,
+          "unidad": "und"
+        }
+      ],
+      "precio_unitario_estimado": 90
+    },
+    "Co 601.07.99": {
+      "codigo": "Co 601.07.99",
+      "descripcion": "Señalización horizontal termoplástica (genérica, ancho por definir)",
+      "unidad": "ml",
+      "aliases": [
+        "senalizacion horizontal termoplastica",
+        "senalizacion horizontal con pintura termoplastica",
+        "pintura termoplastica linea pavimento",
+        "senalizacion termoplastica"
+      ],
+      "rendimiento": 1500,
+      "rendimiento_unidad": "ml/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Máquina autopropulsada termoplástica",
+          "horas": 8,
+          "costo_hora": 380
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Caldera premelting termoplástico",
+          "horas": 8,
+          "costo_hora": 180
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Vehículo pickup",
+          "horas": 8,
+          "costo_hora": 90
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado de cuadrilla",
+          "horas": 8,
+          "costo_hora": 80
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Operador máquina",
+          "horas": 8,
+          "costo_hora": 70
+        },
+        {
+          "cantidad": 3,
+          "descripcion": "Ayudantes / banderilleros",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1000,
+          "descripcion": "Material termoplástico (lb)",
+          "precio_unitario": 20,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 100,
+          "descripcion": "Microesferas reflectivas (lb)",
+          "precio_unitario": 20,
+          "unidad": "lb"
+        },
+        {
+          "cantidad": 18,
+          "descripcion": "Imprimante (gal)",
+          "precio_unitario": 170,
+          "unidad": "gal"
+        }
+      ],
+      "precio_unitario_estimado": 35
+    },
+    "Co 902.02": {
+      "codigo": "Co 902.02",
+      "descripcion": "Vialetas / marcadores reflectivos de pavimento",
+      "unidad": "unidad",
+      "aliases": [
+        "vialetas",
+        "marcadores reflectivos de pavimento",
+        "vialeta reflectiva"
+      ],
+      "rendimiento": 80,
+      "rendimiento_unidad": "unidad/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Vehículo pickup",
+          "horas": 4,
+          "costo_hora": 90
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Herramienta menor",
+          "horas": 8,
+          "costo_hora": 15
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Encargado",
+          "horas": 8,
+          "costo_hora": 70
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Operarios",
+          "horas": 8,
+          "costo_hora": 35
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Vialeta reflectiva bidireccional",
+          "precio_unitario": 95,
+          "unidad": "und"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Epoxi adhesivo (porción por unidad)",
+          "precio_unitario": 12,
+          "unidad": "und"
+        }
+      ],
+      "precio_unitario_estimado": 140
+    },
+    "Co 903.01": {
+      "codigo": "Co 903.01",
+      "descripcion": "Postes de concreto con tendido eléctrico (mitigación)",
+      "unidad": "unidad",
+      "aliases": [
+        "postes de concreto con tendido electrico",
+        "poste concreto tendido electrico"
+      ],
+      "rendimiento": 1.5,
+      "rendimiento_unidad": "unidad/día",
+      "equipo": [
+        {
+          "cantidad": 1,
+          "descripcion": "Grúa pluma o pluma autopropulsada",
+          "horas": 4,
+          "costo_hora": 380
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Camión grúa",
+          "horas": 4,
+          "costo_hora": 280
+        }
+      ],
+      "mano_obra": [
+        {
+          "cantidad": 1,
+          "descripcion": "Maestro electricista",
+          "horas": 8,
+          "costo_hora": 110
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Operarios",
+          "horas": 8,
+          "costo_hora": 60
+        },
+        {
+          "cantidad": 2,
+          "descripcion": "Ayudantes",
+          "horas": 8,
+          "costo_hora": 30
+        }
+      ],
+      "materiales": [
+        {
+          "cantidad": 1,
+          "descripcion": "Poste de concreto 12 m",
+          "precio_unitario": 4800,
+          "unidad": "und"
+        },
+        {
+          "cantidad": 1,
+          "descripcion": "Crucero metálico, aisladores, herrajes",
+          "precio_unitario": 1800,
+          "unidad": "global"
+        },
+        {
+          "cantidad": 30,
+          "descripcion": "Conductor AAC (ml)",
+          "precio_unitario": 35,
+          "unidad": "ml"
+        }
+      ],
+      "precio_unitario_estimado": 9500
+    }
+  }
+}

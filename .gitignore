@@ -21,6 +21,10 @@ data/guatecompras_local.db-journal
 data/guatecompras_local.db-shm
 data/guatecompras_local.db-wal
 data/pdfs_cache/
+data/ofertas_generadas/
+
+# Carpeta donde Claudio puede dejar artefactos efímeros / borradores
+entregables/
 
 # --- Logs ---
 *.log
